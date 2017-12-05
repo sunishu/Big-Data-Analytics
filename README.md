@@ -1,13 +1,14 @@
 # **Big-Data-Analytics** 
 
 >## **Team Members:-**
-  *Sunidhi Shukla(ss10448)
-   Swati Bhatt(sb5984)*
+  *Sunidhi Shukla(ss10448)*
+  
+   *Swati Bhatt(sb5984)*
 
 >## **Dataset:**
 The dataset can be found at this link: https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
 
-**About the dataset:** 
+>**About the dataset:** 
 -This dataset includes all valid felony, misdemeanor, and violation crimes reported to the New York City Police Department (NYPD) from 2006 to the end of last year (2016). 
 
 -It contains 5.58M rows and 24 columns. (Futher information about each column can be found in the project report.)
@@ -16,12 +17,17 @@ The dataset can be found at this link: https://data.cityofnewyork.us/Public-Safe
 
 -The type of the data in each column is from amongst these data types- date and time, text, number and location.
 
->This project is divided into two sections:
+
+This project is divided into two sections:
+
 Part 1: Data cleaning
+
 Part 2: Data analysis and visualisation.
 
-## **Data Cleaning:**
-Instructions:
+
+>## **Data Cleaning:**
+*Instructions:*
+
 1- Login to dumbo using instructions given at http://wikis.nyu.edu/display/NYUHPC.
 
 2- Setup the aliases:
@@ -33,13 +39,13 @@ Instructions:
    
 4- Upload the the file to Hadoop cluster using: hadoop fs -copyFromLocal data.csv
 
-The dataset is already on the cluster under /home/ss10448/FP and the column validation files are in /home/ss10448/FP/ColumnValidation .
-
 To run a job on Hadoop use following command-
 spark-submit <python-code>.py <dataset>.csv
 
 To get the ouput file, use:
 hadoop fs -getmerged <file-name>.out <file-name>.csv
+
+The dataset is already on the cluster under /home/ss10448/FP and the column validation files are in /home/ss10448/FP/ColumnValidation .
 
 For each column validation file, we get two output files- the first file returns the data along with its type, mini description and tells if the data is valid/invalid/null.
 The second file returns the total count of valid/invalid/null rows in each column.
