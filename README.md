@@ -52,3 +52,32 @@ The second file returns the total count of valid/invalid/null rows in each colum
 
 The link to the project report is- https://docs.google.com/document/d/18-51SWcI-9JDbDGjkIF6H3jYnUyA2YTcvHv4K7EW0WI/edit?ts=5a25f4f3 
 
+>## **Data Analysis:**
+
+We have used Jupyter notebooks to generate our graphs and to do visualization. We have used pyspark to extract and explore the required target variables.
+
+*Instructions:*
+
+1- Install Jupyter notebook for python3 using- pip3 install jupyter
+2- Install gmplot to plot google maps for visualization using- !pip install gmplot in jupyter
+
+The .ipynb files, the datasets, the graphs generated and the maps plotted have been all attached.
+
+>**Target variables** 
+
+We have analysed following variables:
+1. Monthly distribution of Crimes
+2. Crime analysis based on Boroughs
+3. Location analysis of Crimes
+4. Late reported crime analysis
+5. Crime analysis on public holidays
+		5.1. December 25th crime analysis
+		5.2. July 4th crime analysis
+		5.3. Halloween crime analysis
+6. NYC departments related crime analysis
+7. Attempted crimes analysis
+8. Analysis of NYPD_Motor_Vehicle_Collisions dataset
+
+
+
+
